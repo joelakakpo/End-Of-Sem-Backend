@@ -1,0 +1,35 @@
+# Node modules
+/node_modules/
+
+# Build outputs
+/build/
+/dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+/.vscode/
+
+# Optional
+package-lock.json
+coverage/
+
+# Optional static build
+out/
+
+# Jest cache
+.eslintcache
