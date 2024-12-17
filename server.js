@@ -28,7 +28,7 @@ app.use(registerRoutes)
 
 // API route to get menu items
 app.get("/", (req, res) => {
-  res.status(200).json(menu);
+  res.status(200).send("Hello World and welcome Akapo's the backend");
 });
 
 // Start the server
